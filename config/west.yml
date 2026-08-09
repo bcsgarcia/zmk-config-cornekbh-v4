@@ -1,6 +1,6 @@
 manifest:
   defaults:
-    revision: v0.3
+    revision: main
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -11,11 +11,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-helpers
       url: https://github.com/urob/zmk-helpers.git
-      revision: v0.3
+      revision: main
       path: config/zmk-helpers
     - name: zmk-raw-hid
       remote: zzeneg
